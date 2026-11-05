@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Streamlit secrets
+.streamlit/secrets.toml
+# Excel lock files
+~$*.xlsx
+# Note: data/*.csv, output/* and docs/images/* are tracked on purpose (runnable sample)

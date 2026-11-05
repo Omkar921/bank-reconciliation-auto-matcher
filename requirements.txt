@@ -1,0 +1,10 @@
+pandas>=2.1
+numpy>=1.26
+rapidfuzz>=3.6
+openpyxl>=3.1
+streamlit>=1.50
+altair>=5.0
+matplotlib>=3.8
+pytest>=8.0
+# Optional: only needed to regenerate README screenshots (scripts/screenshot_dashboard.py)
+# playwright>=1.45
