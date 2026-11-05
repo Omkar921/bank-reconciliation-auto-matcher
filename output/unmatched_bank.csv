@@ -1,0 +1,123 @@
+statement_id,trans_date,posted_date,amount,description,payee,reference,type,bank_account,match_status,matched_gl_id,category,suggested_action,exception_note
+BS-02152,2026-10-01,2026-10-01,569.26,WIRE IN WESTFIELD PACKAGING OBI INV882429,WESTFIELD PACKAGING,,WIRE_IN,OPERATING-****4821,Unmatched-Bank,,Amount mismatch,Book short-pay/wire fee difference or chase customer,Possible amount mismatch vs GL-02214 (diff $35.00)
+BS-02484,2026-10-01,2026-10-01,-25.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02485,2026-10-01,2026-10-01,-45.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02159,2026-10-02,2026-10-02,1210.92,WIRE IN HARBOR POINT MARINE OBI INV243201,HARBOR POINT MARINE,,WIRE_IN,OPERATING-****4821,Unmatched-Bank,,Amount mismatch,Book short-pay/wire fee difference or chase customer,Possible amount mismatch vs GL-02221 (diff $35.00)
+BS-02169,2026-10-02,2026-10-02,2488.43,ACH CREDIT KESTREL AEROSPACE CCD,KESTREL AEROSPACE,,ACH_CREDIT,OPERATING-****4821,Unmatched-Bank,,Possible split payment,Review as 1-to-many match; clear manually if confirmed,Equals GL-02258 + GL-02259
+BS-02494,2026-10-02,2026-10-02,-18.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02516,2026-10-02,2026-10-02,-213.47,CHARGEBACK CB-6454178,STRIPE,,CHARGEBACK,OPERATING-****4821,Unmatched-Bank,,Chargeback,Book JE to 1250 Returns/Disputes; open dispute with processor,
+BS-02523,2026-10-02,2026-10-02,-66.85,CHARGEBACK CB-9291603,STRIPE,,CHARGEBACK,OPERATING-****4821,Unmatched-Bank,,Chargeback,Book JE to 1250 Returns/Disputes; open dispute with processor,
+BS-02160,2026-10-05,2026-10-05,2862.39,WIRE IN UNION PACIFIC COMPONEN OBI INV853410,UNION PACIFIC COMPONEN,,WIRE_IN,OPERATING-****4821,Unmatched-Bank,,Amount mismatch,Book short-pay/wire fee difference or chase customer,Possible amount mismatch vs GL-02222 (diff $20.00)
+BS-02166,2026-10-05,2026-10-05,36546.72,ACH CREDIT RIVERBEND FOODS CCD,RIVERBEND FOODS,,ACH_CREDIT,OPERATING-****4821,Unmatched-Bank,,Possible split payment,Review as 1-to-many match; clear manually if confirmed,Equals GL-02252 + GL-02253
+BS-02470,2026-10-05,2026-10-05,-25.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02473,2026-10-05,2026-10-05,-25.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02477,2026-10-05,2026-10-05,-18.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02483,2026-10-05,2026-10-05,-18.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02500,2026-10-05,2026-10-05,-25.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02518,2026-10-05,2026-10-05,-518.0,CHARGEBACK CB-3271401,STRIPE,,CHARGEBACK,OPERATING-****4821,Unmatched-Bank,,Chargeback,Book JE to 1250 Returns/Disputes; open dispute with processor,
+BS-01173,2026-10-06,2026-10-06,-330.08,POS DEBIT MSFT *AZURE 0042,MSFT *AZURE 0042,,CARD_DEBIT,OPERATING-****4821,Unmatched-Bank,,Unexplained bank item,Investigate: no GL counterpart within tolerance,
+BS-02136,2026-10-06,2026-10-06,48316.37,DEPOSIT PAYPAL *HIGHLANDAUTO,PAYPAL *HIGHLANDAUTO,,DEPOSIT,OPERATING-****4821,Unmatched-Bank,,Unexplained bank item,Investigate: no GL counterpart within tolerance,
+BS-02149,2026-10-06,2026-10-06,553.06,WIRE IN VANGUARD DEFENSE SYSTE OBI INV768832,VANGUARD DEFENSE SYSTE,,WIRE_IN,OPERATING-****4821,Unmatched-Bank,,Amount mismatch,Book short-pay/wire fee difference or chase customer,Possible amount mismatch vs GL-02211 (diff $20.00)
+BS-02490,2026-10-06,2026-10-06,-45.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02526,2026-10-06,2026-10-06,-68.59,CHARGEBACK CB-7172842,STRIPE,,CHARGEBACK,OPERATING-****4821,Unmatched-Bank,,Chargeback,Book JE to 1250 Returns/Disputes; open dispute with processor,
+BS-01179,2026-10-07,2026-10-07,-23793.21,POS DEBIT LOWES #01962*,LOWES #01962*,,CARD_DEBIT,OPERATING-****4821,Unmatched-Bank,,Unexplained bank item,Investigate: no GL counterpart within tolerance,
+BS-02115,2026-10-07,2026-10-07,518.45,DEPOSIT PAYPAL *LONESTAR,PAYPAL *LONESTAR,,DEPOSIT,OPERATING-****4821,Unmatched-Bank,,Unexplained bank item,Investigate: no GL counterpart within tolerance,
+BS-02164,2026-10-07,2026-10-07,1024.28,WIRE IN PRAIRIE WIND ENERGY OBI INV257864,PRAIRIE WIND ENERGY,,WIRE_IN,OPERATING-****4821,Unmatched-Bank,,Amount mismatch,Book short-pay/wire fee difference or chase customer,Possible amount mismatch vs GL-02226 (diff $15.00)
+BS-02175,2026-10-07,2026-10-07,9192.76,ACH CREDIT ORION AEROSPACE PARTS CCD,ORION AEROSPACE PARTS,,ACH_CREDIT,OPERATING-****4821,Unmatched-Bank,,Possible split payment,Review as 1-to-many match; clear manually if confirmed,Equals GL-02270 + GL-02271
+BS-02476,2026-10-07,2026-10-07,-25.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02527,2026-10-07,2026-10-07,-863.61,CHARGEBACK CB-2137247,STRIPE,,CHARGEBACK,OPERATING-****4821,Unmatched-Bank,,Chargeback,Book JE to 1250 Returns/Disputes; open dispute with processor,
+BS-02176,2026-10-08,2026-10-08,39418.07,ACH CREDIT KESTREL AEROSPACE CCD,KESTREL AEROSPACE,,ACH_CREDIT,OPERATING-****4821,Unmatched-Bank,,Possible split payment,Review as 1-to-many match; clear manually if confirmed,Equals GL-02272 + GL-02273
+BS-02465,2026-10-08,2026-10-08,-45.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02512,2026-10-08,2026-10-08,-1564.22,RETURNED ITEM NSF MESA VERDE MINING,MESA VERDE MINING,,NSF,OPERATING-****4821,Unmatched-Bank,,NSF / returned item,Reverse customer receipt; re-open AR and contact customer,
+BS-02513,2026-10-08,2026-10-08,-36.0,RETURNED ITEM FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02519,2026-10-08,2026-10-08,-966.5,CHARGEBACK CB-9436990,STRIPE,,CHARGEBACK,OPERATING-****4821,Unmatched-Bank,,Chargeback,Book JE to 1250 Returns/Disputes; open dispute with processor,
+BS-02528,2026-10-08,2026-10-08,-1122.08,CHARGEBACK CB-2542775,STRIPE,,CHARGEBACK,OPERATING-****4821,Unmatched-Bank,,Chargeback,Book JE to 1250 Returns/Disputes; open dispute with processor,
+BS-02163,2026-10-09,2026-10-09,5952.51,WIRE IN GRANITE STATE MACHINER OBI INV925946,GRANITE STATE MACHINER,,WIRE_IN,OPERATING-****4821,Unmatched-Bank,,Amount mismatch,Book short-pay/wire fee difference or chase customer,Possible amount mismatch vs GL-02225 (diff $25.00)
+BS-02491,2026-10-09,2026-10-09,-18.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02508,2026-10-09,2026-10-09,-2986.73,RETURNED ITEM NSF BRIGHTLINE MANUFACTURI,BRIGHTLINE MANUFACTURI,,NSF,OPERATING-****4821,Unmatched-Bank,,NSF / returned item,Reverse customer receipt; re-open AR and contact customer,
+BS-02509,2026-10-09,2026-10-09,-36.0,RETURNED ITEM FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02151,2026-10-13,2026-10-13,58439.68,WIRE IN CEDAR POINT FABRICATOR OBI INV286330,CEDAR POINT FABRICATOR,,WIRE_IN,OPERATING-****4821,Unmatched-Bank,,Amount mismatch,Book short-pay/wire fee difference or chase customer,Possible amount mismatch vs GL-02213 (diff $15.00)
+BS-02156,2026-10-13,2026-10-13,800.92,WIRE IN MERIDIAN ENERGY PARTNE OBI INV702278,MERIDIAN ENERGY PARTNE,,WIRE_IN,OPERATING-****4821,Unmatched-Bank,,Amount mismatch,Book short-pay/wire fee difference or chase customer,Possible amount mismatch vs GL-02218 (diff $25.00)
+BS-02469,2026-10-13,2026-10-13,-18.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02487,2026-10-13,2026-10-13,-25.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02496,2026-10-13,2026-10-13,-18.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02099,2026-10-14,2026-10-14,55157.83,DEPOSIT PAYPAL *KESTRELAEROSPA,PAYPAL *KESTRELAEROSPA,,DEPOSIT,OPERATING-****4821,Unmatched-Bank,,Unexplained bank item,Investigate: no GL counterpart within tolerance,
+BS-02111,2026-10-14,2026-10-14,75074.54,DEPOSIT PAYPAL *JETSTREAMAIR,PAYPAL *JETSTREAMAIR,,DEPOSIT,OPERATING-****4821,Unmatched-Bank,,Unexplained bank item,Investigate: no GL counterpart within tolerance,
+BS-02129,2026-10-14,2026-10-14,1011.17,DEPOSIT PAYPAL *ZENITHELEVATOR,PAYPAL *ZENITHELEVATOR,,DEPOSIT,OPERATING-****4821,Unmatched-Bank,,Unexplained bank item,Investigate: no GL counterpart within tolerance,
+BS-02161,2026-10-14,2026-10-14,14468.74,WIRE IN YELLOWSTONE MINING SUP OBI INV735981,YELLOWSTONE MINING SUP,,WIRE_IN,OPERATING-****4821,Unmatched-Bank,,Amount mismatch,Book short-pay/wire fee difference or chase customer,Possible amount mismatch vs GL-02223 (diff $25.00)
+BS-02478,2026-10-14,2026-10-14,-45.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-01223,2026-10-15,2026-10-15,-36949.52,POS DEBIT MSFT *AZURE 0042,MSFT *AZURE 0042,,CARD_DEBIT,OPERATING-****4821,Unmatched-Bank,,Unexplained bank item,Investigate: no GL counterpart within tolerance,
+BS-01238,2026-10-15,2026-10-15,-1051.4,POS DEBIT PAYPAL *PAYCHEXBENEFIT,PAYPAL *PAYCHEXBENEFIT,,CARD_DEBIT,OPERATING-****4821,Unmatched-Bank,,Unexplained bank item,Investigate: no GL counterpart within tolerance,
+BS-02085,2026-10-15,2026-10-15,466.59,DEPOSIT PAYPAL *MERIDIANENERGY,PAYPAL *MERIDIANENERGY,,DEPOSIT,OPERATING-****4821,Unmatched-Bank,,Unexplained bank item,Investigate: no GL counterpart within tolerance,
+BS-02171,2026-10-15,2026-10-15,3898.0,ACH CREDIT ATLAS INDUSTRIAL GROUP CCD,ATLAS INDUSTRIAL GROUP,,ACH_CREDIT,OPERATING-****4821,Unmatched-Bank,,Possible split payment,Review as 1-to-many match; clear manually if confirmed,Equals GL-02262 + GL-02263
+BS-02468,2026-10-15,2026-10-15,-25.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02497,2026-10-15,2026-10-15,-18.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-01261,2026-10-16,2026-10-16,-82.95,POS DEBIT PAYPAL *3M,PAYPAL *3M,,CARD_DEBIT,OPERATING-****4821,Unmatched-Bank,,Unexplained bank item,Investigate: no GL counterpart within tolerance,
+BS-02071,2026-10-16,2026-10-16,115707.47,DEPOSIT PAYPAL *ZENITHELEVATOR,PAYPAL *ZENITHELEVATOR,,DEPOSIT,OPERATING-****4821,Unmatched-Bank,,Unexplained bank item,Investigate: no GL counterpart within tolerance,
+BS-02075,2026-10-16,2026-10-16,1735.77,DEPOSIT PAYPAL *YELLOWSTONEMIN,PAYPAL *YELLOWSTONEMIN,,DEPOSIT,OPERATING-****4821,Unmatched-Bank,,Unexplained bank item,Investigate: no GL counterpart within tolerance,
+BS-02135,2026-10-16,2026-10-16,149647.71,DEPOSIT PAYPAL *FRONTIERAGRI,PAYPAL *FRONTIERAGRI,,DEPOSIT,OPERATING-****4821,Unmatched-Bank,,Unexplained bank item,Investigate: no GL counterpart within tolerance,
+BS-02482,2026-10-16,2026-10-16,-18.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02486,2026-10-16,2026-10-16,-25.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02499,2026-10-16,2026-10-16,-18.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02502,2026-10-16,2026-10-16,-2665.82,RETURNED ITEM NSF EASTGATE LOGISTICS,EASTGATE LOGISTICS,,NSF,OPERATING-****4821,Unmatched-Bank,,NSF / returned item,Reverse customer receipt; re-open AR and contact customer,
+BS-02503,2026-10-16,2026-10-16,-36.0,RETURNED ITEM FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02520,2026-10-16,2026-10-16,-3626.29,CHARGEBACK CB-9120214,STRIPE,,CHARGEBACK,OPERATING-****4821,Unmatched-Bank,,Chargeback,Book JE to 1250 Returns/Disputes; open dispute with processor,
+BS-02150,2026-10-19,2026-10-19,15402.63,WIRE IN IRONWOOD CONSTRUCTION OBI INV937779,IRONWOOD CONSTRUCTION,,WIRE_IN,OPERATING-****4821,Unmatched-Bank,,Amount mismatch,Book short-pay/wire fee difference or chase customer,Possible amount mismatch vs GL-02212 (diff $25.00)
+BS-02170,2026-10-19,2026-10-19,4043.01,ACH CREDIT FALCON TRAILER WORKS CCD,FALCON TRAILER WORKS,,ACH_CREDIT,OPERATING-****4821,Unmatched-Bank,,Possible split payment,Review as 1-to-many match; clear manually if confirmed,Equals GL-02260 + GL-02261
+BS-02174,2026-10-19,2026-10-19,19907.88,ACH CREDIT TIDEWATER SHIPBUILDING CCD,TIDEWATER SHIPBUILDING,,ACH_CREDIT,OPERATING-****4821,Unmatched-Bank,,Possible split payment,Review as 1-to-many match; clear manually if confirmed,Equals GL-02268 + GL-02269
+BS-02471,2026-10-19,2026-10-19,-25.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02529,2026-10-19,2026-10-19,-1507.71,CHARGEBACK CB-2764982,STRIPE,,CHARGEBACK,OPERATING-****4821,Unmatched-Bank,,Chargeback,Book JE to 1250 Returns/Disputes; open dispute with processor,
+BS-02122,2026-10-20,2026-10-20,94048.19,DEPOSIT PAYPAL *EVERGREENBUILD,PAYPAL *EVERGREENBUILD,,DEPOSIT,OPERATING-****4821,Unmatched-Bank,,Unexplained bank item,Investigate: no GL counterpart within tolerance,
+BS-02167,2026-10-20,2026-10-20,2942.86,ACH CREDIT LAKESHORE HVAC CCD,LAKESHORE HVAC,,ACH_CREDIT,OPERATING-****4821,Unmatched-Bank,,Possible split payment,Review as 1-to-many match; clear manually if confirmed,Equals GL-02254 + GL-02255
+BS-02472,2026-10-20,2026-10-20,-45.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02522,2026-10-20,2026-10-20,-1194.37,CHARGEBACK CB-4285182,STRIPE,,CHARGEBACK,OPERATING-****4821,Unmatched-Bank,,Chargeback,Book JE to 1250 Returns/Disputes; open dispute with processor,
+BS-01056,2026-10-21,2026-10-21,-15014.47,ACH DEBIT 3M PPD,3M,,ACH_DEBIT,OPERATING-****4821,Unmatched-Bank,,Unexplained bank item,Investigate: no GL counterpart within tolerance,
+BS-02153,2026-10-21,2026-10-21,9129.28,WIRE IN JETSTREAM AIR SYSTEMS OBI INV814537,JETSTREAM AIR SYSTEMS,,WIRE_IN,OPERATING-****4821,Unmatched-Bank,,Amount mismatch,Book short-pay/wire fee difference or chase customer,Possible amount mismatch vs GL-02215 (diff $15.00)
+BS-02157,2026-10-21,2026-10-21,122518.99,WIRE IN TIDEWATER SHIPBUILDING OBI INV740014,TIDEWATER SHIPBUILDING,,WIRE_IN,OPERATING-****4821,Unmatched-Bank,,Amount mismatch,Book short-pay/wire fee difference or chase customer,Possible amount mismatch vs GL-02219 (diff $15.00)
+BS-02173,2026-10-21,2026-10-21,5010.69,ACH CREDIT SILVERLINE RAIL SERVIC CCD,SILVERLINE RAIL SERVIC,,ACH_CREDIT,OPERATING-****4821,Unmatched-Bank,,Possible split payment,Review as 1-to-many match; clear manually if confirmed,Equals GL-02266 + GL-02267
+BS-02489,2026-10-21,2026-10-21,-25.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02517,2026-10-21,2026-10-21,-626.45,CHARGEBACK CB-6608862,STRIPE,,CHARGEBACK,OPERATING-****4821,Unmatched-Bank,,Chargeback,Book JE to 1250 Returns/Disputes; open dispute with processor,
+BS-01206,2026-10-22,2026-10-22,-52086.25,POS DEBIT AWS AMAZON WEB SVCS,AWS AMAZON WEB SVCS,,CARD_DEBIT,OPERATING-****4821,Unmatched-Bank,,Unexplained bank item,Investigate: no GL counterpart within tolerance,
+BS-02158,2026-10-22,2026-10-22,94596.1,WIRE IN JETSTREAM AIR SYSTEMS OBI INV132656,JETSTREAM AIR SYSTEMS,,WIRE_IN,OPERATING-****4821,Unmatched-Bank,,Amount mismatch,Book short-pay/wire fee difference or chase customer,Possible amount mismatch vs GL-02220 (diff $20.00)
+BS-02162,2026-10-22,2026-10-22,32118.78,WIRE IN EVERGREEN BUILDING PRO OBI INV420632,EVERGREEN BUILDING PRO,,WIRE_IN,OPERATING-****4821,Unmatched-Bank,,Amount mismatch,Book short-pay/wire fee difference or chase customer,Possible amount mismatch vs GL-02224 (diff $35.00)
+BS-02481,2026-10-22,2026-10-22,-45.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02088,2026-10-23,2026-10-23,170172.3,DEPOSIT PAYPAL *SILVERLINERAIL,PAYPAL *SILVERLINERAIL,,DEPOSIT,OPERATING-****4821,Unmatched-Bank,,Unexplained bank item,Investigate: no GL counterpart within tolerance,
+BS-02155,2026-10-23,2026-10-23,22923.28,WIRE IN NOVA SCOTIA LUMBER OBI INV532390,NOVA SCOTIA LUMBER,,WIRE_IN,OPERATING-****4821,Unmatched-Bank,,Amount mismatch,Book short-pay/wire fee difference or chase customer,Possible amount mismatch vs GL-02217 (diff $35.00)
+BS-02172,2026-10-23,2026-10-23,9375.77,ACH CREDIT CEDAR POINT FABRICATOR CCD,CEDAR POINT FABRICATOR,,ACH_CREDIT,OPERATING-****4821,Unmatched-Bank,,Possible split payment,Review as 1-to-many match; clear manually if confirmed,Equals GL-02264 + GL-02265
+BS-02464,2026-10-23,2026-10-23,-18.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02474,2026-10-23,2026-10-23,-25.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02488,2026-10-23,2026-10-23,-45.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02521,2026-10-23,2026-10-23,-205.57,CHARGEBACK CB-0327509,STRIPE,,CHARGEBACK,OPERATING-****4821,Unmatched-Bank,,Chargeback,Book JE to 1250 Returns/Disputes; open dispute with processor,
+BS-01181,2026-10-26,2026-10-26,-871.55,POS DEBIT SQ *3M,SQ *3M,,CARD_DEBIT,OPERATING-****4821,Unmatched-Bank,,Unexplained bank item,Investigate: no GL counterpart within tolerance,
+BS-01190,2026-10-26,2026-10-26,-162.88,POS DEBIT 3M*34242,3M*34242,,CARD_DEBIT,OPERATING-****4821,Unmatched-Bank,,Unexplained bank item,Investigate: no GL counterpart within tolerance,
+BS-01265,2026-10-26,2026-10-26,-945.5,POS DEBIT PAYPAL *EMERSONELECTRI,PAYPAL *EMERSONELECTRI,,CARD_DEBIT,OPERATING-****4821,Unmatched-Bank,,Unexplained bank item,Investigate: no GL counterpart within tolerance,
+BS-02165,2026-10-26,2026-10-26,730.78,WIRE IN SILVERLINE RAIL SERVIC OBI INV953616,SILVERLINE RAIL SERVIC,,WIRE_IN,OPERATING-****4821,Unmatched-Bank,,Amount mismatch,Book short-pay/wire fee difference or chase customer,Possible amount mismatch vs GL-02227 (diff $25.00)
+BS-02177,2026-10-26,2026-10-26,43135.67,ACH CREDIT LONE STAR DRILLING CCD,LONE STAR DRILLING,,ACH_CREDIT,OPERATING-****4821,Unmatched-Bank,,Possible split payment,Review as 1-to-many match; clear manually if confirmed,Equals GL-02274 + GL-02275
+BS-02480,2026-10-26,2026-10-26,-45.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02492,2026-10-26,2026-10-26,-25.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02493,2026-10-26,2026-10-26,-18.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02506,2026-10-26,2026-10-26,-4859.26,RETURNED ITEM NSF MERIDIAN ENERGY PARTNE,MERIDIAN ENERGY PARTNE,,NSF,OPERATING-****4821,Unmatched-Bank,,NSF / returned item,Reverse customer receipt; re-open AR and contact customer,
+BS-02507,2026-10-26,2026-10-26,-36.0,RETURNED ITEM FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02148,2026-10-27,2026-10-27,32729.16,WIRE IN JUNIPER MEDICAL DEVICE OBI INV852852,JUNIPER MEDICAL DEVICE,,WIRE_IN,OPERATING-****4821,Unmatched-Bank,,Amount mismatch,Book short-pay/wire fee difference or chase customer,Possible amount mismatch vs GL-02210 (diff $15.00)
+BS-02154,2026-10-27,2026-10-27,1916.19,WIRE IN KESTREL AEROSPACE OBI INV799302,KESTREL AEROSPACE,,WIRE_IN,OPERATING-****4821,Unmatched-Bank,,Amount mismatch,Book short-pay/wire fee difference or chase customer,Possible amount mismatch vs GL-02216 (diff $25.00)
+BS-02168,2026-10-27,2026-10-27,7774.97,ACH CREDIT CEDAR POINT FABRICATOR CCD,CEDAR POINT FABRICATOR,,ACH_CREDIT,OPERATING-****4821,Unmatched-Bank,,Amount mismatch,Book short-pay/wire fee difference or chase customer,Possible amount mismatch vs GL-02265 (diff $25.43)
+BS-02463,2026-10-27,2026-10-27,-25.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02466,2026-10-27,2026-10-27,-18.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02495,2026-10-27,2026-10-27,-25.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02514,2026-10-27,2026-10-27,-2500.32,RETURNED ITEM NSF IRONWOOD CONSTRUCTION,IRONWOOD CONSTRUCTION,,NSF,OPERATING-****4821,Unmatched-Bank,,NSF / returned item,Reverse customer receipt; re-open AR and contact customer,
+BS-02515,2026-10-27,2026-10-27,-36.0,RETURNED ITEM FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02525,2026-10-27,2026-10-27,-444.28,CHARGEBACK CB-3212113,STRIPE,,CHARGEBACK,OPERATING-****4821,Unmatched-Bank,,Chargeback,Book JE to 1250 Returns/Disputes; open dispute with processor,
+BS-01104,2026-10-28,2026-10-28,-23875.12,ACH DEBIT 3M PPD,3M,,ACH_DEBIT,OPERATING-****4821,Unmatched-Bank,,Unexplained bank item,Investigate: no GL counterpart within tolerance,
+BS-01186,2026-10-28,2026-10-28,-311.6,POS DEBIT PAYPAL *LIBERTYFASTENE,PAYPAL *LIBERTYFASTENE,,CARD_DEBIT,OPERATING-****4821,Unmatched-Bank,,Unexplained bank item,Investigate: no GL counterpart within tolerance,
+BS-01259,2026-10-28,2026-10-28,-2139.54,POS DEBIT PAYPAL *3M,PAYPAL *3M,,CARD_DEBIT,OPERATING-****4821,Unmatched-Bank,,Unexplained bank item,Investigate: no GL counterpart within tolerance,
+BS-02467,2026-10-28,2026-10-28,-18.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02475,2026-10-28,2026-10-28,-18.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02479,2026-10-28,2026-10-28,-25.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02498,2026-10-28,2026-10-28,-18.0,INTL WIRE FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02504,2026-10-28,2026-10-28,-2000.07,RETURNED ITEM NSF LONE STAR DRILLING,LONE STAR DRILLING,,NSF,OPERATING-****4821,Unmatched-Bank,,NSF / returned item,Reverse customer receipt; re-open AR and contact customer,
+BS-02505,2026-10-28,2026-10-28,-36.0,RETURNED ITEM FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02510,2026-10-28,2026-10-28,-19984.01,RETURNED ITEM NSF MESA VERDE MINING,MESA VERDE MINING,,NSF,OPERATING-****4821,Unmatched-Bank,,NSF / returned item,Reverse customer receipt; re-open AR and contact customer,
+BS-02511,2026-10-28,2026-10-28,-36.0,RETURNED ITEM FEE,BANK,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
+BS-02501,2026-10-30,2026-10-30,1236.48,INTEREST PAID,BANK,,INTEREST,OPERATING-****4821,Unmatched-Bank,,Interest income,Book JE: Dr 1000 Cash / Cr 4900 Interest Income,
+BS-02524,2026-10-30,2026-10-30,-186.27,CHARGEBACK CB-0977812,STRIPE,,CHARGEBACK,OPERATING-****4821,Unmatched-Bank,,Chargeback,Book JE to 1250 Returns/Disputes; open dispute with processor,
+BS-02530,2026-10-30,2026-10-30,-210.0,CHARGEBACK FEES 14 @ 15.00,STRIPE,,FEE,OPERATING-****4821,Unmatched-Bank,,Bank fee,Book JE: Dr 6150 Bank Charges / Cr 1000 Cash,
